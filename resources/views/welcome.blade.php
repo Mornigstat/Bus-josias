@@ -117,7 +117,7 @@
                                         </div>
 
                                         <div class="col-lg-12">
-                                            <input type='submit' id='send_message' value='Find a Vehicle'
+                                            <input type='submit' id='send_message' value='Rechercher'
                                                 class="btn-main pull-right">
                                         </div>
 
@@ -134,24 +134,20 @@
                             <div class="container-timeline">
                                 <ul>
                                     <li>
-                                        <h4>Choose a vehicle</h4>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                            incididunt ut labore</p>
+                                        <h4></h4>
+                                        <p></p>
                                     </li>
                                     <li>
-                                        <h4>Pick location &amp; date</h4>
-                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                            fugiat nulla</p>
+                                        <h4></h4>
+                                        <p></p>
                                     </li>
                                     <li>
-                                        <h4>Make a booking</h4>
-                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                            aliquip ex ea commodo</p>
+                                        <h4></h4>
+                                        <p></p>
                                     </li>
                                     <li>
-                                        <h4>Sit back &amp; relax</h4>
-                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                            aliquip ex ea commodo</p>
+                                        <h4></h4>
+                                        <p></p>
                                     </li>
                                 </ul>
                             </div>
@@ -299,7 +295,7 @@
                     </div>
 
                     <div class="col-lg-6">
-                        <img src="assets/images/misc/car.png" alt="" class="img-fluid wow fadeInUp">
+                        <img src="assets/images/misc/bus_PNG8615.png" alt="" class="img-fluid wow fadeInUp">
                     </div>
 
                     <div class="col-lg-3">
@@ -323,7 +319,7 @@
         </section>
 
         <section class="text-light jarallax">
-            <img src="assets/images/background/2.jpg" class="jarallax-img" alt="">
+            <img src="assets/images/background/153948-download-wallpaper-benin-flag-4k-africa-national-symbols-flag.jpg" class="jarallax-img" alt="">
             <div class="container">
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInRight">
@@ -384,23 +380,23 @@
                         <div class="col-lg-12">
                             <div class="de-item mb30">
                                 <div class="d-img">
-                                    <img src="assets/images/cars/jeep-renegade.jpg" class="img-fluid" alt="">
+                                    <img src="assets/images/cars/ab74ee27f55e4fe19ff091f5b01f3600-760x570.jpg" class="img-fluid" alt="">
                                 </div>
                                 <div class="d-info">
                                     <div class="d-text">
-                                        <h4>Jeep Renegade</h4>
+                                        <h4>Bus BMW</h4>
                                         <div class="d-item_like">
                                             <i class="fa fa-heart"></i><span>74</span>
                                         </div>
                                         <div class="d-atr-group">
-                                            <span class="d-atr"><img src="assets/images/icons/1.svg"
-                                                    alt="">5</span>
+                                            <span class="d-atr"><img src="assets/images/icons/wifi-icon-15.png"
+                                                    alt=""></span>
                                             <span class="d-atr"><img src="assets/images/icons/2.svg"
-                                                    alt="">2</span>
+                                                    alt=""></span>
                                             <span class="d-atr"><img src="assets/images/icons/3.svg"
-                                                    alt="">4</span>
+                                                    alt=""></span>
                                             <span class="d-atr"><img src="assets/images/icons/4.svg"
-                                                    alt="">SUV</span>
+                                                    alt="">Bus 1</span>
                                         </div>
                                         <div class="d-price">
                                             Daily rate from <span>$265</span>
@@ -414,7 +410,7 @@
                         <div class="col-lg-12">
                             <div class="de-item mb30">
                                 <div class="d-img">
-                                    <img src="assets/images/cars/bmw-m5.jpg" class="img-fluid" alt="">
+                                    <img src="assets/images/cars/wp7641941.jpg" class="img-fluid" alt="">
                                 </div>
                                 <div class="d-info">
                                     <div class="d-text">
@@ -424,13 +420,13 @@
                                         </div>
                                         <div class="d-atr-group">
                                             <span class="d-atr"><img src="assets/images/icons/1.svg"
-                                                    alt="">5</span>
+                                                    alt=""></span>
                                             <span class="d-atr"><img src="assets/images/icons/2.svg"
-                                                    alt="">2</span>
+                                                    alt=""></span>
                                             <span class="d-atr"><img src="assets/images/icons/3.svg"
-                                                    alt="">4</span>
+                                                    alt=""></span>
                                             <span class="d-atr"><img src="assets/images/icons/4.svg"
-                                                    alt="">Sedan</span>
+                                                    alt="">Bus 2</span>
                                         </div>
                                         <div class="d-price">
                                             Daily rate from <span>$244</span>
