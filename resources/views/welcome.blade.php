@@ -440,7 +440,7 @@
                         <div class="col-lg-12">
                             <div class="de-item mb30">
                                 <div class="d-img">
-                                    <img src="assets/images/cars/ferrari-enzo.jpg" class="img-fluid" alt="">
+                                    <img src="assets/images/cars/R.jpg" class="img-fluid" alt="">
                                 </div>
                                 <div class="d-info">
                                     <div class="d-text">
@@ -470,7 +470,7 @@
                         <div class="col-lg-12">
                             <div class="de-item mb30">
                                 <div class="d-img">
-                                    <img src="assets/images/cars/ford-raptor.jpg" class="img-fluid" alt="">
+                                    <img src="assets/images/cars/Coomotor-6105-scaled.webp" class="img-fluid" alt="">
                                 </div>
                                 <div class="d-info">
                                     <div class="d-text">
@@ -500,7 +500,7 @@
                         <div class="col-lg-12">
                             <div class="de-item mb30">
                                 <div class="d-img">
-                                    <img src="assets/images/cars/mini-cooper.jpg" class="img-fluid" alt="">
+                                    <img src="assets/images/cars/real-hino-blue-bus-11581336942l2hgxiywmj.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="d-info">
                                     <div class="d-text">
@@ -530,7 +530,7 @@
                         <div class="col-lg-12">
                             <div class="de-item mb30">
                                 <div class="d-img">
-                                    <img src="assets/images/cars/vw-polo.jpg" class="img-fluid" alt="">
+                                    <img src="assets/images/cars/60fead8878fe3c4ea6c5ab7c.jpeg" class="img-fluid" alt="">
                                 </div>
                                 <div class="d-info">
                                     <div class="d-text">

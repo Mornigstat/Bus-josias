@@ -37,3 +37,5 @@ Route::resource('Maliste', MalisteController::class);
 Route::resource('Monprofile', MonprofileController::class);
 Route::resource('Dashboard', DashboardController::class);
 
+
+

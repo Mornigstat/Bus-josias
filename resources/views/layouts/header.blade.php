@@ -48,7 +48,7 @@
                                 <li><a class="menu-item" href="#">Compte</a>
                                         <ul>
                                             <li><a class="menu-item" href="{{ route('Login.index') }}">Connexion</a></li>
-                                            <li><a class="menu-item" href="{{ route('Register.index') }}l">Inscription</a></li>
+                                            <li><a class="menu-item" href="{{ route('Register.index') }}">Inscription</a></li>
                                             <li><a class="menu-item" href="404.html">Page 404</a></li>
                                             <li><a class="menu-item" href="{{ route('Monprofile.index') }}">Mon profil</a></li>
                                             <li><a class="menu-item" href="{{ route('Maliste.index') }}">Ma liste</a></li>
