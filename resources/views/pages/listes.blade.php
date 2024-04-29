@@ -23,7 +23,7 @@
         </section>
         <!-- section close -->
 
-     
+
                     <div class="col-lg-9">
                         <!-- Affichage des résultats de la recherche -->
                         @if(isset($billets) && count($billets) > 0)
@@ -35,10 +35,9 @@
                                                 <div class="d-atr-group">
                                                     <ul class="d-atr">
                                                         <h4><li><strong>Agence:</strong> {{ $billet->agence }}</li></h4>
-                                                        <li><strong>Gare de départ:</strong> {{ $billet->lieu_depart }}</li>
-                                                        <li><strong>Gare d'arrivée:</strong> {{ $billet->lieu_arrivee }}</li>
-                                                        <li><strong>Date de départ:</strong> {{ $billet->date_depart }}</li>
-                                                        <li><strong>Heure de départ:</strong> {{ $billet->heure_depart }}</li>
+                                                        <li><strong>Gare de départ:</strong> {{ $billet->point_depart }}</li>
+                                                        <li><strong>Gare d'arrivée:</strong> {{ $billet->point_arrivee }}</li>
+                                                        <li><strong>Date et heure départ:</strong> {{ $billet->date_heure_depart }}</li>
                                                     </ul>
                                                 </div>
                                             </div>

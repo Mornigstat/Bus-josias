@@ -10,7 +10,8 @@ use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\MalisteController;
 use App\Http\Controllers\MonprofileController;
 use App\Http\Controllers\DashboardController;
-
+use App\Http\Controllers\BilletController;
+use App\Http\Controllers\CompagnieController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,8 +25,10 @@ use App\Http\Controllers\DashboardController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('/pages/home');
 });
+
+
 
 Route::resource('Accueil', HomeController::class);
 Route::resource('Apropos', AboutController::class);
@@ -36,6 +39,23 @@ Route::resource('Register', RegisterController::class);
 Route::resource('Maliste', MalisteController::class);
 Route::resource('Monprofile', MonprofileController::class);
 Route::resource('Dashboard', DashboardController::class);
+Route::resource('compagnies', CompagnieController::class);
+Route::resource('billets', BilletController::class);
+Route::resource('Listes_', BilletController::class);
+
+
+// Route to list all billets
+Route::get('/billets', [BilletController::class, 'index'])->name('billets.index');
+
+
+// Route to display the form for creating a new billet
+Route::get('/billets/create', [BilletController::class, 'create'])->name('billets.create');
+
+// Route to store a new billet in the database
+Route::post('/billets', [BilletController::class, 'store'])->name('billets.store');
+
+
+
 
 
 

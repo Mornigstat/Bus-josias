@@ -19,7 +19,7 @@
                         <div class="spacer-single"></div>
                     </div>
 
-                    <div class="col-lg-12">
+                    <div class="col-lg-6">
                         <div class="spacer-single sm-hide"></div>
                         <div class="p-4 rounded-3 shadow-soft" data-bgcolor="#ffffff">
 
@@ -31,7 +31,7 @@
 
 
 
-                                        <div class="col-lg-4">
+                                        <div class="col-lg-16">
                                             <div class="row">
                                                 <div class="col-lg-12 mb-4">
                                                     <h5 class="mb-3">Gare de Départ</h5>
@@ -118,7 +118,7 @@
 
                                         <div class="col-lg-12">
                                             <input type='submit' id='send_message' value='Rechercher'
-                                                class="btn-main pull-right">
+                                                class="btn-main pull-left">
                                         </div>
 
                                     </div>

@@ -1,5 +1,5 @@
         <!-- footer begin -->
-        <footer class="text-light">
+        <br><br><br><br><footer class="text-light">
             <div class="container">
                 <div class="row g-custom-x">
                     <div class="col-lg-3">
