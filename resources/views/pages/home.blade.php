@@ -21,7 +21,7 @@
 
                     <div class="col-lg-6">
                         <div class="spacer-single sm-hide"></div>
-                        <div class="p-4 rounded-3 shadow-soft" data-bgcolor="#ffffff">
+                        <div class="p-4 rounded-3 shadow-soft" data-bgcolor="#fff">
 
 
                             <form name="contactForm" id='contact_form' method="post">

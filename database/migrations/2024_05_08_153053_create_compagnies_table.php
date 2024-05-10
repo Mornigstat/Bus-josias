@@ -14,9 +14,11 @@ return new class extends Migration
         Schema::create('compagnies', function (Blueprint $table) {
             $table->id();
             $table->string('nom');
-            $table->string('numero_telephone');
-            $table->string('logo')->nullable();
-            // Ajoutez d'autres colonnes si nécessaire
+            $table->string('adresse')->nullable();
+            $table->string('telephone')->nullable();
+            $table->string('email')->nullable();
+            $table->string('site_web')->nullable();
+            $table->text('description')->nullable();
             $table->timestamps();
         });
     }

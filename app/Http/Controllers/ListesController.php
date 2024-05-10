@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\View\View;
 use Illuminate\Http\Request;
+use App\Models\Billets; // Ajout de l'importation du modèle Billet
 
 class ListesController extends Controller
 {
@@ -12,7 +13,8 @@ class ListesController extends Controller
      */
     public function index(): View
     {
-        return view("pages.listes");
+        $billets = Billets::all(); // Récupérer tous les billets depuis la base de données
+        return view('pages.listes', ['billets' => $billets]); // Passer les billets à la vue
     }
 
     /**

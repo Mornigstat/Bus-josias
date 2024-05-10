@@ -13,6 +13,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\BilletController;
 use App\Http\Controllers\CompagnieController;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -42,17 +43,18 @@ Route::resource('Dashboard', DashboardController::class);
 Route::resource('compagnies', CompagnieController::class);
 Route::resource('billets', BilletController::class);
 Route::resource('Listes_', BilletController::class);
+Route::get('register', [RegisterController::class, 'showRegistrationForm'])->name('register');
+Route::post('register', [RegisterController::class, 'register']);
+
+Route::get('login', [LoginController::class, 'showLoginForm'])->name('login');
+Route::post('login', [LoginController::class, 'login']);
+Route::post('logout', [LoginController::class, 'logout'])->name('logout'); 
 
 
-// Route to list all billets
-Route::get('/billets', [BilletController::class, 'index'])->name('billets.index');
 
 
-// Route to display the form for creating a new billet
-Route::get('/billets/create', [BilletController::class, 'create'])->name('billets.create');
 
-// Route to store a new billet in the database
-Route::post('/billets', [BilletController::class, 'store'])->name('billets.store');
+
 
 
 

@@ -28,8 +28,8 @@
                                     <!-- logo begin -->
                                     <div id="logo">
                                         <a href="index.html">
-                                            <img class="logo-1" src="assets/images/logo-light.png" alt="">
-                                            <img class="logo-2" src="assets/images/logo.png" alt="">
+                                            <img class="logo-1" src="assets/images/" alt="">
+                                            <img class="logo-2" src="assets/images/" alt="">
                                         </a>
                                     </div>
                                     <!-- logo close -->
@@ -39,16 +39,16 @@
                                 <ul id="mainmenu">
                                 <li><a class="menu-item" href="{{ route('Accueil.index') }}">Accueil</a></li>
 
-                                <li><a class="menu-item" href="{{ route('Apropos.index') }}">A propos</a></li>
-
                                 <li><a class="menu-item" href="{{ route('Listes.index') }}">Liste</a></li>
+
+                                <li><a class="menu-item" href="{{ route('Listes.index') }}">Nos compagnies</a></li>
+
+                                <li><a class="menu-item" href="{{ route('Apropos.index') }}">A propos</a></li>
 
                                 <li><a class="menu-item" href="{{ route('Contacts.index') }}">Contacts</a></li>
 
                                 <li><a class="menu-item" href="#">Compte</a>
                                         <ul>
-                                            <li><a class="menu-item" href="{{ route('Login.index') }}">Connexion</a></li>
-                                            <li><a class="menu-item" href="{{ route('Register.index') }}">Inscription</a></li>
                                             <li><a class="menu-item" href="404.html">Page 404</a></li>
                                             <li><a class="menu-item" href="{{ route('Monprofile.index') }}">Mon profil</a></li>
                                             <li><a class="menu-item" href="{{ route('Maliste.index') }}">Ma liste</a></li>
@@ -59,6 +59,7 @@
                             <div class="de-flex-col">
                                 <div class="menu_side_area">
                                    <a href="{{ route('Login.index') }}" class="btn-main">Se connecter</a>
+                                   <a href="{{ route('Register.index') }}" class="btn-main">S'inscrire</a>
                                     <span id="menu-btn"></span>
                                 </div>
                             </div>
@@ -66,5 +67,5 @@
                     </div>
                 </div>
             </div>
-        </header><br><br><br>
+        </header>
         <!-- header close -->

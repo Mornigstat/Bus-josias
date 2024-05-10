@@ -23,44 +23,33 @@
         </section>
         <!-- section close -->
 
-
-                    <div class="col-lg-9">
-                        <!-- Affichage des résultats de la recherche -->
-                        @if(isset($billets) && count($billets) > 0)
-                            @foreach($billets as $billet)
-                                <div class="col-lg-12">
-                                    <div class="de-item-list mb30">
-                                        <div class="d-info">
-                                            <div class="d-text">
-                                                <div class="d-atr-group">
-                                                    <ul class="d-atr">
-                                                        <h4><li><strong>Agence:</strong> {{ $billet->agence }}</li></h4>
-                                                        <li><strong>Gare de départ:</strong> {{ $billet->point_depart }}</li>
-                                                        <li><strong>Gare d'arrivée:</strong> {{ $billet->point_arrivee }}</li>
-                                                        <li><strong>Date et heure départ:</strong> {{ $billet->date_heure_depart }}</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="d-price">
-                                            Daily rate from <span>${{ $billet->prix }}</span>
-                                            <a class="btn-main" href="car-single.html">Reserver</a>
-                                            <a class="btn-main" href="details.html" style="background-color: #ff9800;">Détails</a>
-                                        </div>
-                                        <div class="clearfix"></div>
-                                    </div>
+        <div class="col-lg-9 mx-auto"> <!-- Utilisation de mx-auto pour centrer le contenu -->
+            <!-- Affichage des résultats de la recherche -->
+            @foreach($billets as $billet) <!-- Modifier la variable $billets en $billet pour éviter la confusion -->
+                <div class="col-lg-12 mb-4"> <!-- Ajout de la classe mb-4 pour un espacement en bas -->
+                    <div class="de-item-list mb30 p-3 border rounded"> <!-- Ajout de classes pour la mise en forme -->
+                        <div class="d-info">
+                            <div class="d-text">
+                                <div class="d-atr-group">
+                                    <ul class="d-atr list-unstyled"> <!-- Utilisation de list-unstyled pour supprimer les puces -->
+                                        <li><strong>Gare de départ:</strong> {{ $billet->ville_depart }}</li>
+                                        <li><strong>Gare d'arrivée:</strong> {{ $billet->ville_arrivee }}</li>
+                                        <li><strong>Date de départ:</strong> {{ $billet->date_depart }}</li>
+                                        <li><strong>Heure de départ:</strong> {{ $billet->heure_depart }}</li>
+                                    </ul>
                                 </div>
-                            @endforeach
-                        @else
-                            <div class="col-lg-12">
-                                <p>Aucun billet disponible pour le moment.</p>
                             </div>
-                        @endif
-                        <!-- Fin de l'affichage des résultats de la recherche -->
+                        </div>
+                        <div class="d-price mt-3"> <!-- Ajout de la classe mt-3 pour un espacement en haut -->
+                            Daily rate from <span>{{ $billet->prix }}F cfa</span>
+                            <a class="btn-main ml-2" href="car-single.html">Reserver</a> <!-- Ajout de la classe ml-2 pour un espacement à gauche -->
+                            <a class="btn-main ml-2" href="details.html" style="background-color: #ff9800;">Détails</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            @endforeach
+            <!-- Fin de l'affichage des résultats de la recherche -->
+        </div>
     </div>
     <!-- content close -->
 @endsection
