@@ -10,8 +10,7 @@ use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\MalisteController;
 use App\Http\Controllers\MonprofileController;
 use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\BilletController;
-use App\Http\Controllers\CompagnieController;
+use App\Http\Controllers\ReservationController;
 
 
 /*
@@ -40,15 +39,8 @@ Route::resource('Register', RegisterController::class);
 Route::resource('Maliste', MalisteController::class);
 Route::resource('Monprofile', MonprofileController::class);
 Route::resource('Dashboard', DashboardController::class);
-Route::resource('compagnies', CompagnieController::class);
-Route::resource('billets', BilletController::class);
-Route::resource('Listes_', BilletController::class);
-Route::get('register', [RegisterController::class, 'showRegistrationForm'])->name('register');
-Route::post('register', [RegisterController::class, 'register']);
+Route::resource('reservation', ReservationController::class);
 
-Route::get('login', [LoginController::class, 'showLoginForm'])->name('login');
-Route::post('login', [LoginController::class, 'login']);
-Route::post('logout', [LoginController::class, 'logout'])->name('logout'); 
 
 
 

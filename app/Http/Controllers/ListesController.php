@@ -13,7 +13,7 @@ class ListesController extends Controller
      */
     public function index(): View
     {
-        $billets = Billets::all(); // Récupérer tous les billets depuis la base de données
+        $billets = Billets::paginate(15); // Récupérer tous les billets depuis la base de données
         return view('pages.listes', ['billets' => $billets]); // Passer les billets à la vue
     }
 
