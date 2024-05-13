@@ -17,7 +17,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <h1>Reservation</h1>
+                            <h1>Bus - Confirmer les détails</h1>
                         </div>
                         <div class="clearfix"></div>
                     </div>
