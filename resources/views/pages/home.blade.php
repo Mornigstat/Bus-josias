@@ -592,13 +592,14 @@
 
         </section>
 
-       
+
 
         <section id="section-call-to-action" class="bg-color-2 pt60 pb60 text-light">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 offset-lg-1">
-                        <h2 class="s2">Appelez-nous pour plus d’informations. Le service client est là pour vous aider toujours.</h2>
+                        <h2 class="s2">Appelez-nous pour plus d’informations. Le service client est là pour vous aider
+                            toujours.</h2>
                     </div>
 
                     <div class="col-lg-5 text-lg-center text-sm-center">
@@ -619,5 +620,6 @@
 
     </div>
     <!-- content close -->
+
 
 @endsection

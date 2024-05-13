@@ -18,8 +18,9 @@
     <link href="{{ asset('assets/css/coloring.css') }}" rel="stylesheet" type="text/css">
     <!-- color scheme -->
     <link id="colors" href="{{ asset('assets/css/colors/scheme-01.css') }}" rel="stylesheet" type="text/css">
-
   
+
+
 
 
 </head>

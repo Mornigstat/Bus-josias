@@ -41,7 +41,8 @@
 
                                 <li><a class="menu-item" href="{{ route('Listes.index') }}">Liste</a></li>
 
-                                <li><a class="menu-item" href="{{ route('Listes.index') }}">Nos compagnies</a></li>
+                                <li><a class="menu-item" href="#section-news">Nos compagnies</a></li>
+
 
                                 <li><a class="menu-item" href="{{ route('Apropos.index') }}">A propos</a></li>
 
