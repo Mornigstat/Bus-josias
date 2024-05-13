@@ -44,7 +44,7 @@
                             <div class="d-price mt-3"> <!-- Ajout de la classe mt-3 pour un espacement en haut -->
                                 Daily rate from <span>{{ $billet->prix }}F cfa</span>
                                <a href="{{ route('reservation.index') }}" class="btn-main">Reserver</a><!-- Ajout de la classe ml-2 pour un espacement à gauche -->
-                                <a class="btn-main ml-2" href="details.html" style="background-color: #ff9800;">Détails</a>
+                                
                             </div>
                         </div>
                     </div>

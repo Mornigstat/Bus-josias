@@ -89,104 +89,105 @@
             <div class="wow fadeInRight d-flex">
                 <div class="de-marquee-list">
                     <div class="d-item">
-                        <span class="d-item-txt">SUV</span>
+                        <span class="d-item-txt">Lewis</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Hatchback</span>
+                        <span class="d-item-txt">Transport</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Crossover</span>
+                        <span class="d-item-txt">Reserver</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Convertible</span>
+                        <span class="d-item-txt">Vos billets</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Sedan</span>
+                        <span class="d-item-txt">de bus</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Sports Car</span>
+                        <span class="d-item-txt">Sans soucis</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Coupe</span>
+                        <span class="d-item-txt">Merci</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Minivan</span>
+                        <span class="d-item-txt">Lewis</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Station Wagon</span>
+                        <span class="d-item-txt">La meilleur</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Pickup Truck</span>
+                        <span class="d-item-txt">Platforme</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Minivans</span>
+                        <span class="d-item-txt">De</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Exotic Cars</span>
+                        <span class="d-item-txt">Reservation</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
+
                     </div>
                 </div>
 
                 <div class="de-marquee-list">
                     <div class="d-item">
-                        <span class="d-item-txt">SUV</span>
+                        <span class="d-item-txt">Lewis</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Hatchback</span>
+                        <span class="d-item-txt">Transport</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Crossover</span>
+                        <span class="d-item-txt">Reserver</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Convertible</span>
+                        <span class="d-item-txt">Vos billets</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Sedan</span>
+                        <span class="d-item-txt">de bus</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Sports Car</span>
+                        <span class="d-item-txt">Sans soucis</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Coupe</span>
+                        <span class="d-item-txt">Merci</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Minivan</span>
+                        <span class="d-item-txt">Lewis</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Station Wagon</span>
+                        <span class="d-item-txt">La meilleur</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Pickup Truck</span>
+                        <span class="d-item-txt">Platforme</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Minivans</span>
+                        <span class="d-item-txt">De</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
-                        <span class="d-item-txt">Exotic Cars</span>
+                        <span class="d-item-txt">Reservation</span>
                         <span class="d-item-display">
                             <i class="d-item-dot"></i>
                         </span>
@@ -569,6 +570,7 @@
                         </div>
                     </div>
 
+
                     <div class="col-lg-4 mb10">
                         <div class="bloglist s2 item">
                             <div class="post-content">
@@ -577,6 +579,57 @@
                                 </div>
                                 <div class="post-text">
                                     <h4><a href="news-single.html"><span>Travel excution bus</span></a></h4>
+                                    <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit
+                                        cupidatat labore ad laborum consectetur.</p>
+                                    <a class="btn-main" href="#">Voir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                      <div class="col-lg-4 mb10">
+                        <div class="bloglist s2 item">
+                            <div class="post-content">
+                                <div class="post-image">
+
+                                    <img alt="" src="assets/images/news/R (3).jpeg" class="lazy">
+                                </div>
+                                <div class="post-text">
+                                    <h4><a href="news-single.html"><span>TRACKBUS</span></a></h4>
+                                    <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit
+                                        cupidatat labore ad laborum consectetur.</p>
+                                    <a class="btn-main" href="#">Voir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                      <div class="col-lg-4 mb10">
+                        <div class="bloglist s2 item">
+                            <div class="post-content">
+                                <div class="post-image">
+
+                                    <img alt="" src="assets/images/news/R (3).jpeg" class="lazy">
+                                </div>
+                                <div class="post-text">
+                                    <h4><a href="news-single.html"><span>TRACKBUS</span></a></h4>
+                                    <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit
+                                        cupidatat labore ad laborum consectetur.</p>
+                                    <a class="btn-main" href="#">Voir plus</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                      <div class="col-lg-4 mb10">
+                        <div class="bloglist s2 item">
+                            <div class="post-content">
+                                <div class="post-image">
+
+                                    <img alt="" src="assets/images/news/R (3).jpeg" class="lazy">
+                                </div>
+                                <div class="post-text">
+                                    <h4><a href="news-single.html"><span>TRACKBUS</span></a></h4>
                                     <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit
                                         cupidatat labore ad laborum consectetur.</p>
                                     <a class="btn-main" href="#">Voir plus</a>
