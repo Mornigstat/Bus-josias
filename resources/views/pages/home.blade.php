@@ -54,107 +54,35 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-lg-12 mb-4">
-                                                    <h5 class="mb-3">Date & heure de départ</h5>
+                                                    <h5 class="mb-3">Date de départ</h5>
                                                     <div class="date-time-field">
-                                                        <input type="text" id="date-picker" name="Pick Up Date"
+                                                        <input type="date" id="date-picker" name="Pick Up Date"
                                                             value="" class="form-control">
-                                                        <select name="Pick Up Time" id="pickup-time" class="form-control">
-                                                            <option selected disabled value="Select time">Time</option>
-                                                             <option value="00:00">00:00</option>
-                                                            <option value="00:30">00:30</option>
-                                                            <option value="01:00">01:00</option>
-                                                            <option value="01:30">01:30</option>
-                                                            <option value="02:00">02:00</option>
-                                                            <option value="02:30">02:30</option>
-                                                            <option value="03:00">03:00</option>
-                                                            <option value="03:30">03:30</option>
-                                                            <option value="04:00">04:00</option>
-                                                            <option value="04:30">04:30</option>
-                                                            <option value="05:00">05:00</option>
-                                                            <option value="05:30">05:30</option>
-                                                            <option value="06:00">06:00</option>
-                                                            <option value="06:30">06:30</option>
-                                                            <option value="07:00">07:00</option>
-                                                            <option value="07:30">07:30</option>
-                                                            <option value="08:00">08:00</option>
-                                                            <option value="08:30">08:30</option>
-                                                            <option value="09:00">09:00</option>
-                                                            <option value="09:30">09:30</option>
-                                                            <option value="10:00">10:00</option>
-                                                            <option value="10:30">10:30</option>
-                                                            <option value="11:00">11:00</option>
-                                                            <option value="11:30">11:30</option>
-                                                            <option value="12:00">12:00</option>
-                                                            <option value="12:30">12:30</option>
-                                                            <option value="13:00">13:00</option>
-                                                            <option value="13:30">13:30</option>
-                                                            <option value="14:00">14:00</option>
-                                                            <option value="14:30">14:30</option>
-                                                            <option value="15:00">15:00</option>
-                                                            <option value="15:30">15:30</option>
-                                                            <option value="16:00">16:00</option>
-                                                            <option value="16:30">16:30</option>
-                                                            <option value="17:00">17:00</option>
-                                                            <option value="17:30">17:30</option>
-                                                            <option value="18:00">18:00</option>
-                                                            <option value="18:30">18:30</option>
-                                                            <option value="19:00">19:00</option>
-                                                            <option value="19:30">19:30</option>
-                                                            <option value="20:00">20:00</option>
-                                                            <option value="20:30">20:30</option>
-                                                            <option value="21:00">21:00</option>
-                                                            <option value="21:30">21:30</option>
-                                                            <option value="22:00">22:00</option>
-                                                            <option value="22:30">22:30</option>
-                                                            <option value="23:00">23:00</option>
-                                                            <option value="23:30">23:30</option>
-                                                            <!-- Options pour l'heure de prise en charge -->
-                                                        </select>
                                                     </div>
                                                 </div>
+                                                <div class="col-lg-12 mb-4">
+                                                    <h5 class="mb-3">Heure de départ</h5>
+                                                    <div class="date-time-field">
+                                                        <input type="time" id="departure-time" name="Departure Time"
+                                                            value="" class="form-control">
+                                                    </div>
                                                 </div>
+
+
+
+
+                                                <div class="col-lg-12">
+                                                    <input type='submit' id='send_message' value='Rechercher'
+                                                        class="btn-main pull-left">
+                                                </div>
+
                                             </div>
-                                        </div>
-
-                                        <div class="col-lg-12">
-                                            <input type='submit' id='send_message' value='Rechercher'
-                                                class="btn-main pull-left">
-                                        </div>
-
-                                    </div>
 
                             </form>
                         </div>
                     </div>
 
-                    <div class="spacer-double"></div>
 
-                    <div class="row">
-                        <div class="col-lg-12 text-light">
-                            <div class="container-timeline">
-                                <ul>
-                                    <li>
-                                        <h4></h4>
-                                        <p></p>
-                                    </li>
-                                    <li>
-                                        <h4></h4>
-                                        <p></p>
-                                    </li>
-                                    <li>
-                                        <h4></h4>
-                                        <p></p>
-                                    </li>
-                                    <li>
-                                        <h4></h4>
-                                        <p></p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
 
         <section aria-label="section" class="pt40 pb40 text-light" data-bgcolor="#111111">
@@ -271,9 +199,8 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 offset-lg-3 text-center">
-                        <h2>Our Features</h2>
-                        <p>Dolor esse sint officia est voluptate et qui deserunt et est eiusmod cillum mollit sunt nulla
-                            cillum sit ut culpa ullamco.</p>
+                        <h2>Notre future</h2>
+                        <p></p>
                         <div class="spacer-20"></div>
                     </div>
                     <div class="clearfix"></div>
@@ -319,7 +246,8 @@
         </section>
 
         <section class="text-light jarallax">
-            <img src="assets/images/background/153948-download-wallpaper-benin-flag-4k-africa-national-symbols-flag.jpg" class="jarallax-img" alt="">
+            <img src="assets/images/background/153948-download-wallpaper-benin-flag-4k-africa-national-symbols-flag.jpg"
+                class="jarallax-img" alt="">
             <div class="container">
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInRight">
@@ -369,7 +297,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 offset-lg-3 text-center">
-                        <h2>Our Vehicle Fleet</h2>
+                        <h2>Notre flotte de véhicules</h2>
                         <p>Sit labore et officia eiusmod tempor officia eiusmod dolor exercitation nulla dolore ut id velit
                             et ut anim.</p>
                         <div class="spacer-20"></div>
@@ -380,7 +308,8 @@
                         <div class="col-lg-12">
                             <div class="de-item mb30">
                                 <div class="d-img">
-                                    <img src="assets/images/cars/ab74ee27f55e4fe19ff091f5b01f3600-760x570.jpg" class="img-fluid" alt="">
+                                    <img src="assets/images/cars/ab74ee27f55e4fe19ff091f5b01f3600-760x570.jpg"
+                                        class="img-fluid" alt="">
                                 </div>
                                 <div class="d-info">
                                     <div class="d-text">
@@ -395,12 +324,12 @@
                                                     alt=""></span>
                                             <span class="d-atr"><img src="assets/images/icons/3.svg"
                                                     alt=""></span>
-                                            <span class="d-atr"><img src="assets/images/icons/4.svg"
-                                                    alt="">Bus 1</span>
+                                            <span class="d-atr"><img src="assets/images/icons/4.svg" alt="">Bus
+                                                1</span>
                                         </div>
                                         <div class="d-price">
-                                            Daily rate from <span>$265</span>
-                                            <a class="btn-main" href="car-single.html">Rent Now</a>
+                                            Daily rate from <span>50000fcfa</span>
+                                            <a class="btn-main" href="car-single.html">Louer maintenant</a>
                                         </div>
                                     </div>
                                 </div>
@@ -425,12 +354,12 @@
                                                     alt=""></span>
                                             <span class="d-atr"><img src="assets/images/icons/3.svg"
                                                     alt=""></span>
-                                            <span class="d-atr"><img src="assets/images/icons/4.svg"
-                                                    alt="">Bus 2</span>
+                                            <span class="d-atr"><img src="assets/images/icons/4.svg" alt="">Bus
+                                                2</span>
                                         </div>
                                         <div class="d-price">
-                                            Daily rate from <span>$244</span>
-                                            <a class="btn-main" href="car-single.html">Rent Now</a>
+                                            Daily rate from <span>80000fcfa</span>
+                                            <a class="btn-main" href="car-single.html">Louer maintenant</a>
                                         </div>
                                     </div>
                                 </div>
@@ -459,8 +388,8 @@
                                                     alt="">Exotic Car</span>
                                         </div>
                                         <div class="d-price">
-                                            Daily rate from <span>$167</span>
-                                            <a class="btn-main" href="car-single.html">Rent Now</a>
+                                            Daily rate from <span>30000fcfa</span>
+                                            <a class="btn-main" href="car-single.html">Louer maintenant</a>
                                         </div>
                                     </div>
                                 </div>
@@ -470,7 +399,8 @@
                         <div class="col-lg-12">
                             <div class="de-item mb30">
                                 <div class="d-img">
-                                    <img src="assets/images/cars/Coomotor-6105-scaled.webp" class="img-fluid" alt="">
+                                    <img src="assets/images/cars/Coomotor-6105-scaled.webp" class="img-fluid"
+                                        alt="">
                                 </div>
                                 <div class="d-info">
                                     <div class="d-text">
@@ -489,8 +419,8 @@
                                                     alt="">Pickup Truck</span>
                                         </div>
                                         <div class="d-price">
-                                            Daily rate from <span>$147</span>
-                                            <a class="btn-main" href="car-single.html">Rent Now</a>
+                                            Daily rate from <span>50000fcfa</span>
+                                            <a class="btn-main" href="car-single.html">Louer maintenant</a>
                                         </div>
                                     </div>
                                 </div>
@@ -500,7 +430,8 @@
                         <div class="col-lg-12">
                             <div class="de-item mb30">
                                 <div class="d-img">
-                                    <img src="assets/images/cars/real-hino-blue-bus-11581336942l2hgxiywmj.png" class="img-fluid" alt="">
+                                    <img src="assets/images/cars/real-hino-blue-bus-11581336942l2hgxiywmj.png"
+                                        class="img-fluid" alt="">
                                 </div>
                                 <div class="d-info">
                                     <div class="d-text">
@@ -519,8 +450,8 @@
                                                     alt="">Hatchback</span>
                                         </div>
                                         <div class="d-price">
-                                            Daily rate from <span>$238</span>
-                                            <a class="btn-main" href="car-single.html">Rent Now</a>
+                                            Daily rate from <span>25000fcfa</span>
+                                            <a class="btn-main" href="car-single.html">Louer maintenant</a>
                                         </div>
                                     </div>
                                 </div>
@@ -530,7 +461,8 @@
                         <div class="col-lg-12">
                             <div class="de-item mb30">
                                 <div class="d-img">
-                                    <img src="assets/images/cars/60fead8878fe3c4ea6c5ab7c.jpeg" class="img-fluid" alt="">
+                                    <img src="assets/images/cars/60fead8878fe3c4ea6c5ab7c.jpeg" class="img-fluid"
+                                        alt="">
                                 </div>
                                 <div class="d-info">
                                     <div class="d-text">
@@ -549,8 +481,8 @@
                                                     alt="">Hatchback</span>
                                         </div>
                                         <div class="d-price">
-                                            Daily rate from <span>$106</span>
-                                            <a class="btn-main" href="car-single.html">Rent Now</a>
+                                            Daily rate from <span>70000fcfa</span>
+                                            <a class="btn-main" href="car-single.html">Louer maintenant</a>
                                         </div>
                                     </div>
                                 </div>
@@ -568,24 +500,24 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3">
-                        <h1>Let's Your Adventure Begin</h1>
+                        <h1>Que votre aventure commence</h1>
                         <div class="spacer-20"></div>
                     </div>
                     <div class="col-md-3">
                         <i class="fa fa-trophy de-icon mb20"></i>
-                        <h4>First Class Services</h4>
+                        <h4>Services de première classe</h4>
                         <p>Aliquip consequat excepteur non dolor irure ad irure labore ex eiusmod est duis culpa ex ut minim
                             ut ea.</p>
                     </div>
                     <div class="col-md-3">
                         <i class="fa fa-road de-icon mb20"></i>
-                        <h4>24/7 road assistance</h4>
+                        <h4>Assistance routière 24h/24 et 7j/7</h4>
                         <p>Aliquip consequat excepteur non dolor irure ad irure labore ex eiusmod est duis culpa ex ut minim
                             ut ea.</p>
                     </div>
                     <div class="col-md-3">
                         <i class="fa fa-map-pin de-icon mb20"></i>
-                        <h4>Free Pick-Up & Drop-Off</h4>
+                        <h4>Prise en charge gratuit</h4>
                         <p>Aliquip consequat excepteur non dolor irure ad irure labore ex eiusmod est duis culpa ex ut minim
                             ut ea.</p>
                     </div>
@@ -597,7 +529,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 offset-lg-3 text-center">
-                        <h2>Latest News</h2>
+                        <h2>Nos compagnies</h2>
                         <p>Sit labore et officia eiusmod tempor officia eiusmod dolor exercitation nulla dolore ut id velit
                             et ut anim.</p>
                         <div class="spacer-20"></div>
@@ -607,17 +539,14 @@
                         <div class="bloglist s2 item">
                             <div class="post-content">
                                 <div class="post-image">
-                                    <div class="date-box">
-                                        <div class="m">10</div>
-                                        <div class="d">MAR</div>
-                                    </div>
-                                    <img alt="" src="assets/images/news/pic-blog-1.jpg" class="lazy">
+
+                                    <img alt="" src="assets/images/news/OIP.jpeg" class="lazy">
                                 </div>
                                 <div class="post-text">
-                                    <h4><a href="news-single.html">Enjoy Best Travel Experience<span></span></a></h4>
+                                    <h4><a href="news-single.html">MyBus<span></span></a></h4>
                                     <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit
                                         cupidatat labore ad laborum consectetur.</p>
-                                    <a class="btn-main" href="#">Read More</a>
+                                    <a class="btn-main" href="#">Voir plus</a>
                                 </div>
                             </div>
                         </div>
@@ -627,17 +556,14 @@
                         <div class="bloglist s2 item">
                             <div class="post-content">
                                 <div class="post-image">
-                                    <div class="date-box">
-                                        <div class="m">12</div>
-                                        <div class="d">MAR</div>
-                                    </div>
-                                    <img alt="" src="assets/images/news/pic-blog-2.jpg" class="lazy">
+
+                                    <img alt="" src="assets/images/news/R (3).jpeg" class="lazy">
                                 </div>
                                 <div class="post-text">
-                                    <h4><a href="news-single.html">The Future of Car Rent<span></span></a></h4>
+                                    <h4><a href="news-single.html"><span>TRACKBUS</span></a></h4>
                                     <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit
                                         cupidatat labore ad laborum consectetur.</p>
-                                    <a class="btn-main" href="#">Read More</a>
+                                    <a class="btn-main" href="#">Voir plus</a>
                                 </div>
                             </div>
                         </div>
@@ -647,17 +573,13 @@
                         <div class="bloglist s2 item">
                             <div class="post-content">
                                 <div class="post-image">
-                                    <div class="date-box">
-                                        <div class="m">14</div>
-                                        <div class="d">MAR</div>
-                                    </div>
-                                    <img alt="" src="assets/images/news/pic-blog-3.jpg" class="lazy">
+                                    <img alt="" src="assets/images/news/R.jpeg" class="lazy">
                                 </div>
                                 <div class="post-text">
-                                    <h4><a href="news-single.html">Holiday Tips For Backpacker<span></span></a></h4>
+                                    <h4><a href="news-single.html"><span>Travel excution bus</span></a></h4>
                                     <p>Dolore officia sint incididunt non excepteur ea mollit commodo ut enim reprehenderit
                                         cupidatat labore ad laborum consectetur.</p>
-                                    <a class="btn-main" href="#">Read More</a>
+                                    <a class="btn-main" href="#">Voir plus</a>
                                 </div>
                             </div>
                         </div>
@@ -667,169 +589,29 @@
         </section>
 
         <section id="section-testimonials" class="no-top no-bottom">
-            <div class="container-fluid">
-                <div class="row g-0 align-items-center">
 
-                    <div class="col-md-4">
-                        <div class="de-image-text">
-                            <div class="d-text">
-                                <div class="d-quote id-color"><i class="fa fa-quote-right"></i></div>
-                                <h4>Excellent Service! Car Rent Service!</h4>
-                                <blockquote>
-                                    I have been using Rentaly for my Tips &amp; Trick needs for over 5 years now. I have
-                                    never had any problems with their service. Their customer support is always responsive
-                                    and helpful. I would recommend Rentaly to anyone looking for a reliable Tips &amp; Trick
-                                    provider.
-                                    <span class="by">Stepanie Hutchkiss</span>
-                                </blockquote>
-                            </div>
-                            <img src="assets/images/testimonial/1.jpg" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4">
-                        <div class="de-image-text">
-                            <div class="d-text">
-                                <div class="d-quote id-color"><i class="fa fa-quote-right"></i></div>
-                                <h4>Excellent Service! Car Rent Service!</h4>
-                                <blockquote>
-                                    We have been using Rentaly for our trips needs for several years now and have always
-                                    been happy with their service. Their customer support is Excellent Service! and they are
-                                    always available to help with any issues we have. Their prices are also very
-                                    competitive.
-                                    <span class="by">Jovan Reels</span>
-                                </blockquote>
-                            </div>
-                            <img src="assets/images/testimonial/2.jpg" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="de-image-text">
-                            <div class="d-text">
-                                <div class="d-quote id-color"><i class="fa fa-quote-right"></i></div>
-                                <h4>Excellent Service! Car Rent Service!</h4>
-                                <blockquote>
-                                    Endorsed by industry experts, Rentaly is the Tips &amp; Trick solution you can trust.
-                                    With years of experience in the field, we provide fast, reliable and secure Tips &amp;
-                                    Trick services.
-                                    <span class="by">Kanesha Keyton</span>
-                                </blockquote>
-                            </div>
-                            <img src="assets/images/testimonial/3.jpg" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-                </div>
-            </div>
         </section>
 
-        <section id="section-faq">
-            <div class="container">
-                <div class="row">
-                    <div class="col text-center">
-                        <h2>Have Any Questions?</h2>
-                        <div class="spacer-20"></div>
-                    </div>
-                </div>
-                <div class="row g-custom-x">
-                    <div class="col-md-6 wow fadeInUp">
-                        <div class="accordion secondary">
-                            <div class="accordion-section">
-                                <div class="accordion-section-title" data-tab="#accordion-1">
-                                    How do I get started with Tips &amp; Trick?
-                                </div>
-                                <div class="accordion-section-content" id="accordion-1">
-                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                        voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-                                        occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt
-                                        mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et
-                                        expedita distinctio.</p>
-                                </div>
-                                <div class="accordion-section-title" data-tab="#accordion-2">
-                                    What is difference for each plan?
-                                </div>
-                                <div class="accordion-section-content" id="accordion-2">
-                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                        voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-                                        occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt
-                                        mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et
-                                        expedita distinctio.</p>
-                                </div>
-                                <div class="accordion-section-title" data-tab="#accordion-3">
-                                    What kind of Tips &amp; Trick do I need?
-                                </div>
-                                <div class="accordion-section-content" id="accordion-3">
-                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                        voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-                                        occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt
-                                        mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et
-                                        expedita distinctio.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 wow fadeInUp">
-                        <div class="accordion secondary">
-                            <div class="accordion-section">
-                                <div class="accordion-section-title" data-tab="#accordion-b-4">
-                                    Why do I need domain name?
-                                </div>
-                                <div class="accordion-section-content" id="accordion-b-4">
-                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                        voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-                                        occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt
-                                        mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et
-                                        expedita distinctio.</p>
-                                </div>
-                                <div class="accordion-section-title" data-tab="#accordion-b-5">
-                                    What my website protected from hackers?
-                                </div>
-                                <div class="accordion-section-content" id="accordion-b-5">
-                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                        voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-                                        occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt
-                                        mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et
-                                        expedita distinctio.</p>
-                                </div>
-                                <div class="accordion-section-title" data-tab="#accordion-b-6">
-                                    How do I backup my website?
-                                </div>
-                                <div class="accordion-section-content" id="accordion-b-6">
-                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                                        voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-                                        occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt
-                                        mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et
-                                        expedita distinctio.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+       
 
         <section id="section-call-to-action" class="bg-color-2 pt60 pb60 text-light">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 offset-lg-1">
-                        <h2 class="s2">Call us for further information. Rentaly customer care is here to help you
-                            anytime.</h2>
+                        <h2 class="s2">Appelez-nous pour plus d’informations. Le service client est là pour vous aider toujours.</h2>
                     </div>
 
                     <div class="col-lg-5 text-lg-center text-sm-center">
                         <div class="phone-num-big">
                             <i class="fa fa-phone"></i>
                             <span class="pnb-text">
-                                Call Us Now
+                                APPELEZ-NOUS MAINTENANT
                             </span>
                             <span class="pnb-num">
-                                1 200 333 800
+                                +229 54 12 25 16
                             </span>
                         </div>
-                        <a href="#" class="btn-main">Contact Us</a>
+                        <a href="{{ route('Contacts.index') }}" class="btn-main">Contact Us</a>
                     </div>
                 </div>
             </div>

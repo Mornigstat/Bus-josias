@@ -627,10 +627,7 @@
                         <div class="bloglist s2 item">
                             <div class="post-content">
                                 <div class="post-image">
-                                    <div class="date-box">
-                                        <div class="m">12</div>
-                                        <div class="d">MAR</div>
-                                    </div>
+                                   
                                     <img alt="" src="assets/images/news/pic-blog-2.jpg" class="lazy">
                                 </div>
                                 <div class="post-text">
@@ -838,4 +835,4 @@
     </div>
     <!-- content close -->
 
-@endsection
+
