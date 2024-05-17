@@ -39,7 +39,9 @@ Route::resource('Register', RegisterController::class);
 Route::resource('Maliste', MalisteController::class);
 Route::resource('Monprofile', MonprofileController::class);
 Route::resource('Dashboard', DashboardController::class);
-Route::resource('reservation', ReservationController::class);
+
+Route::get('/reservation/{id}', 'App\Http\Controllers\ReservationController@show')->name('reservation.show');
+
 
 
 

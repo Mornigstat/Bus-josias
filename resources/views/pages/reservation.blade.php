@@ -10,9 +10,11 @@
         <div id="top"></div>
 
         <!-- section begin -->
-        <section id="subheader" class="jarallax text-light">
 
-            <img src="assets/images/background/R (2).jpeg" class="jarallax-img" alt="">
+
+        <section id="subheader" class="jarallax text-light">
+            <img src="{{ asset('assets/images/background/12.jpg') }}" class="jarallax-img" alt="">
+
             <div class="center-y relative text-center">
                 <div class="container">
                     <div class="row">
@@ -37,51 +39,51 @@
                     <div class="d-row">
                         <h4>Information Compagnie</h4>
                         <span class="d-title">Nom</span>
-                        <spam class="d-value"></spam>
+                        <spam class="d-value">{{ $billet->compagnies->nom }}</spam>
                     </div>
                     <div class="d-row">
                         <span class="d-title">Téléphone</span>
-                        <spam class="d-value"></spam>
+                        <spam class="d-value">{{ $billet->compagnies->telephone }}</spam>
                     </div>
                     <div class="d-row">
                         <span class="d-title">Email</span>
-                        <spam class="d-value"></spam>
+                        <spam class="d-value">{{ $billet->compagnies->email }}</spam>
                     </div><br>
                     <div class="d-row">
                         <h4>Information voyage</h4>
                         <span class="d-title">Ville de départ</span>
-                        <spam class="d-value"></spam>
+                        <spam class="d-value">{{ $billet->ville_depart }}</spam>
                     </div>
                     <div class="d-row">
                         <span class="d-title">ville d'arrivée</span>
-                        <spam class="d-value"></spam>
+                        <spam class="d-value">{{ $billet->ville_arrivee }}</spam>
                     </div>
                     <div class="d-row">
                         <span class="d-title">Gare de départ</span>
-                        <spam class="d-value"></spam>
+                        <spam class="d-value">{{ $billet->gare_depart }}</spam>
                     </div>
                     <div class="d-row">
                         <span class="d-title">Gare d'arrivée</span>
-                        <spam class="d-value"></spam>
+                        <spam class="d-value">{{ $billet->gare_arrivee }}</spam>
                     </div>
                     <div class="d-row">
                         <span class="d-title">Date de départ</span>
-                        <spam class="d-value"></spam>
+                        <spam class="d-value">{{ $billet->date_depart }}</spam>
                     </div>
                     <div class="d-row">
                         <span class="d-title">Heure de départ</span>
-                        <spam class="d-value"></spam>
+                        <spam class="d-value">{{ $billet->heure_depart }}</spam>
                     </div><br>
 
                     <h4>Information bus</h4>
 
                     <div class="d-row">
                         <span class="d-title">Capacité bus</span>
-                        <spam class="d-value"></spam>
+                        <spam class="d-value">{{ $billet->capacite_bus }}</spam>
                     </div>
                     <div class="d-row">
                         <span class="d-title">Type bus</span>
-                        <spam class="d-value"></spam>
+                        <spam class="d-value">{{ $billet->type_bus }}</spam>
                     </div>
 
                 </div>
@@ -99,7 +101,7 @@
             <div class="col-lg-3">
                 <div class="de-price text-center">
                     Prix
-                    <h3>2000f</h3>
+                    <h3>{{ $billet->prix }}</h3>
                 </div>
                 <div class="spacer-30"></div>
                 <div class="de-box mb25">
@@ -152,7 +154,8 @@
                                 <input type="text" name="AdresseFacturation"
                                     placeholder="Entrez votre adresse de facturation" class="form-control">
                             </div>
-                            <input type='submit' id='send_message' value='Reserver Maintenant' class="btn-main btn-fullwidth">
+                            <input type='submit' id='send_message' value='Reserver Maintenant'
+                                class="btn-main btn-fullwidth">
 
                             <div class="clearfix"></div>
 

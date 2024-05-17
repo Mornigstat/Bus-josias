@@ -14,7 +14,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12 text-center">
-									<h1>My Orders</h1>
+									<h1>Historique</h1>
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
@@ -57,7 +57,7 @@
                                 <table class="table de-table">
                                   <thead>
                                     <tr>
-                                      <th scope="col"><span class="text-uppercase fs-12 text-gray">Order ID</span></th>
+                                      <th scope="col"><span class="text-uppercase fs-12 text-gray">Numéros</span></th>
                                       <th scope="col"><span class="text-uppercase fs-12 text-gray">Car Name</span></th>
                                       <th scope="col"><span class="text-uppercase fs-12 text-gray">Pick Up Location</span></th>
                                       <th scope="col"><span class="text-uppercase fs-12 text-gray">Drop Off Location</span></th>

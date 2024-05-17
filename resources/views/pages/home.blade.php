@@ -252,8 +252,8 @@
             <div class="container">
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInRight">
-                        <h2>We offer customers a wide range of <span class="id-color">commercial cars</span> and <span
-                                class="id-color">luxury cars</span> for any occasion.</h2>
+                        <h2>Nous offrons à nos clients une large gamme<span class="id-color">de ticket de bus</span> venant<span
+                                class="id-color">de differente</span> compagnies.</h2>
                     </div>
                     <div class="col-lg-6 wow fadeInLeft">
                         Lorem ipsum non aliquip esse do eu ad amet laboris do labore reprehenderit mollit exercitation

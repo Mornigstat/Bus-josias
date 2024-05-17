@@ -15,7 +15,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12 text-center">
-									<h1>Dashboard</h1>
+									<h1>Tableau de bord</h1>
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
